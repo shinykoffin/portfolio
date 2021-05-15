@@ -22,37 +22,41 @@ export const aboutData = {
     "Hello, my name is Luis, I'm a front end web developer, I've always loved the Internet, I use to have little forums and blogs, I spendes my time tweking and changing the appearence using CSS and JS",
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'superchat.jpg',
     title: 'Super chat',
-    info: 'A real time chat using react and firebase, with google auth',
-    info2: 'A simple functional chat ',
+    info: 'A real time chat using React and Firebase!',
+    info2:
+      'This has simple funtions like, log-in with Google, an emoji picker, deleting messages and online users',
     url: '',
     repo: 'https://github.com/shinykoffin/superchat', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'SecretPokemon',
+    info:
+      'This one I did it to be part of a challenge in a dev community, it was plain HTML/CSS/Js but then I adpted it to React',
+    info2:
+      'Is simple, you enter your first name, your birth date and it will asing you a Pokemon, just simple and fun.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'StreamsLGBT',
+    info:
+      'So I build this app because I needed to showcase LGBT+ Twitch streamers in Spanish because a lot of people were asking about other LGBT people in Spanish Twitch.',
+    info2: 'You can login with Twitch and ',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
